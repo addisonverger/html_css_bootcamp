@@ -1,0 +1,117 @@
+body {
+  background-color: #eaeced;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+header > img, header > h1 {
+  display: inline-block;
+  margin: 0;
+}
+
+header > h1 {
+  margin-left: 10px;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+p.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.gray {
+  color: #939090;
+}
+
+.white {
+  color: #edeaea;
+}
+
+aside {
+  position: fixed;
+  display: block;
+  background-color: #545454;
+  box-sizing: border-box;
+  padding: 10px 40px 10px 40px;
+  height: 100%;
+  width: 20%;
+  float: left;
+  overflow: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 50px 0 0 0;
+}
+
+li {
+  padding: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #939090;
+  font-size: 20px;
+}
+
+header, main {
+  margin-left: 20%;
+  float: left;
+  padding: 0 100px 0 80px;
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+blockquote {
+  background-color: #dbdbdb;
+  padding: 10px 50px;
+  margin: 50px 0;
+  font-style: italic;
+  line-height: 2;
+  position: relative;
+}
+
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+   /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right: 1%;
+    bottom: 0;
+    content: "\201D";
+}
+
+input {
+  width: 75%;
+  border: 2px solid #939090;
+  background-color: #545454;
+  padding: 2px 5px
+}
