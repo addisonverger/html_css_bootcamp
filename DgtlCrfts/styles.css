@@ -1,0 +1,104 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #dcdced;
+}
+
+header, main, footer {
+  padding: 0 15%;
+}
+
+header {
+  background-image: url("img/atl.png");
+  height: 50%;
+  position: relative;
+  text-align: center;
+}
+
+main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: auto;
+}
+
+footer {
+  background-color: #59595b;
+  height: 10%;
+  width: 100%;
+  padding: 20px 0 5px 0;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: block;
+  padding-inline-start: unset;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 50px;
+  margin: 20px 0 0 0;
+}
+
+.logo {
+  padding-top: 100px;
+}
+
+.down {
+  position: absolute;
+  bottom: 5%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+.subheading {
+  color: lightgray;
+  font-weight: lighter;
+  margin: 20px 0 50px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.col {
+  text-align: center;
+  padding: 0 30px;
+}
+
+ul.top {
+  float: right;
+}
+
+ul.top li {
+  font-size: 12px;
+}
+
+ul.bottom li, ul.top li {
+  padding: 0 20px;
+}
+
+.copyright {
+  color: darkgray;
+  font-size: 12px;
+}
