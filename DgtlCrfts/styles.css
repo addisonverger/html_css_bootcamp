@@ -12,6 +12,9 @@ header, main, footer {
 
 header {
   background-image: url("img/atl.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 50%;
   position: relative;
   text-align: center;
@@ -61,8 +64,7 @@ h1 {
 }
 
 .down {
-  position: absolute;
-  bottom: 5%;
+  margin: 10px;
 }
 
 .heading {
